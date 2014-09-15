@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright (c) 2014 Kloudtek Ltd
+  -->
+
+<lifecycles>
+    <lifecycle>
+        <id>ktdroid-weave</id>
+        <phases>
+            <phase>
+                <id>weave</id>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>weave</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </phase>
+        </phases>
+    </lifecycle>
+</lifecycles>
